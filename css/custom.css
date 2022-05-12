@@ -1,0 +1,95 @@
+a:link {color:#0b5395}
+a:visited {color:#555395}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "ABeeZee", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,h2 {
+	text-transform: uppercase;
+}
+
+.li-item {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.div-item {
+	font-size: 16px;
+	margin: 0 0 10px 20px;
+}
+.navbar-brand {
+	font-family: "ABeeZee";
+	text-transform: uppercase;
+	margin-left: 50px;
+	font-size: 26px;
+	font-weight: bold;
+	vertical-align: bottom;
+	color: #000;
+}
+
+.menu {
+	float: right;
+	margin-right: 50px;
+	overflow: visible;
+}
+
+.profile-image {
+	display: inline-block;
+	width: 210px;
+	height: 250px;
+  border: 2px solid #eee;
+	border-radius: 5px;
+	vertical-align: top;
+	margin-bottom: 5px;
+	margin-right: 25px;
+}
+.btn-cv {
+	width: 148px;
+	height: 32px;
+}
+.btn-icon {
+	height: 36px;
+	width: 36px;
+	margin: 0 2px;
+	font-size: 20px;
+	padding: 0;
+	margin-bottom: 5px;
+	border: 1px solid #eee;
+	border-radius: 18px;
+	color: #fff;
+	background-color: #162f59;
+}
+.btn-gscholar {
+  content: '';
+  -webkit-mask: url(../images/gscholar.svg) no-repeat 50% 50%;
+  mask: url(../images/gscholar.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.btn-icon:hover{
+	color: #fff;
+	background-color: #999;
+}
+
+.profile-detail {
+	vertical-align: middle;
+	font-size: 17px;
+	margin: 0px 0 0 30px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 600px) {
+  .container {
+    width: 96%;
+		margin-top: -40px;
+		padding: 60px 2% 15px 2%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1080px;
+		margin-top: -40px;
+		padding: 60px 5% 15px 5%;
+  }
+}
